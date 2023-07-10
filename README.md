@@ -1,4 +1,8 @@
 # PyTickerTick : An API wrapper for the [TickerTick API](https://github.com/hczhu/TickerTick-API) in Python
+## Installation
+```sh
+pip install pytickertick
+```
 
 ## Usage
 ```py
