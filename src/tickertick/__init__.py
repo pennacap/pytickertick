@@ -15,6 +15,7 @@ class Story:
         self.favicon_url: typing.Optional[str] = data.get("favicon_url")
         self.tags: list[str] = data["tags"]
         self.similar_stories: list[str] = data.get("similar_stories", [])
+        self.title: typing.Optional[str] = data.get("title")
         self.description: typing.Optional[str] = data.get("description")
         self._frozen: bool = True  # Always true
     def __repr__(self) -> str:
